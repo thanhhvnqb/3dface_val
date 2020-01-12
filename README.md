@@ -29,7 +29,9 @@
     | 3DDFA* [1] | 49.90 | 3.11 | 4.18 | 5.52 | 3.68 \(2.71\)
     | 3D-FAN* [2] | 57.66 | 2.51 | 3.27 | 4.46 | 2.95 \(1.47\)
     | **HGFPN** | **62.47** | **2.29** |  2.90 | 4.32 | **2.71** \(2.59\)
-
+    
+    <sup>* denotes results obtained by running public code.</sup>
+    
 - AFLW2000-3D-Reannotated
 
     | Method | AUC | [0, 30] | [30, 60] | [60, 90] | Mean (StD) |
@@ -38,6 +40,8 @@
     | 3D-FAN* [2] | 72.69 | 1.85 | 1.84 | **2.24** | 1.91 \(**1.77**\)
     | **HGFPN** | **74.22** | **1.59** | **1.75** | 3.16 | **1.86** \(2.46\)
 
+    <sup>* denotes results obtained by running public code.</sup>
+    
 ## Run evaluation
 ### Prepare data
 - You can download LS3D-W datasets from [homepage](https://www.adrianbulat.com/face-alignment) and ALFW-2000-3D from [hompage](http://www.cbsr.ia.ac.cn/users/xiangyuzhu/projects/3DDFA/main.htm)
